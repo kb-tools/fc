@@ -21,6 +21,7 @@
   .nav-container {
     grid-area: nav-container;
     display: flex;
+    min-height: var(--nav-container-min-height);
   }
 
   .body-container {
@@ -28,13 +29,13 @@
     display: flex;
     flex-direction: column;
     overflow: auto;
-
-    background-color: red;
+    align-items: center;
   }
 
   .footer-container {
     grid-area: footer-container;
     display: flex;
+    min-height: var(--footer-container-min-height);
   }
 </style>
 

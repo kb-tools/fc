@@ -1,6 +1,17 @@
 :root {
   --main-gap: 1rem;
-  --main-background-color: hsl(0, 0%, 100%);
+  --main-background-color: hsl(0, 0%, 97%);
+
+  --contenteditable-background-color: hsl(0, 0%, 100%);
+  --contenteditable-border: 0 solid hsl(0, 0%, 80%);
+
+  --nav-container-min-height: 4vh;
+  --footer-container-min-height: 4vh;
+
+  --editor-width: 75vw;
+  --shadow-color: hsl(0, 0%, 90%);
+
+  --filter-drop-shadow: drop-shadow(2px 4px 6px var(--shadow-color));
 }
 
 body {
@@ -12,4 +23,8 @@ body {
   flex-direction: column;
   margin: 0;
   padding: 0;
+}
+
+[contenteditable]:focus {
+  outline: none;
 }
