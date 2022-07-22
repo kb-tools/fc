@@ -1,12 +1,5 @@
-<article contenteditable="true"></article>
+<script>
+  import Editor from '$lib/components/Editor/index.svelte';
+</script>
 
-<style>
-  [contenteditable] {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    height: 100vh;
-    background-color: #eee;
-    border: 1px solid #ccc;
-  }
-</style>
+<Editor />
