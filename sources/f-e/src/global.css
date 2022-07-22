@@ -1,0 +1,15 @@
+:root {
+  --main-gap: 1rem;
+  --main-background-color: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--main-background-color);
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
