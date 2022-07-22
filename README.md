@@ -1,28 +1,25 @@
 # fc
 
-## f-e
+It is meant to be a knowledge sharing system. Something like Confluence, but implemented better and cheaper for all of us.
 
-```bash
-Your project is ready!
-✔ Type-checked JavaScript
-  https://www.typescriptlang.org/tsconfig#checkJs
-✔ ESLint
-  https://github.com/sveltejs/eslint-plugin-svelte3
-✔ Prettier
-  https://prettier.io/docs/en/options.html
-  https://github.com/sveltejs/prettier-plugin-svelte#options
-✔ Playwright
-  https://playwright.dev
+NB: don't get me wrong -- Confluence is almost perfect, just not quite.
 
-Install community-maintained integrations:
-  https://github.com/svelte-add/svelte-adders
+## business requirements
 
-Next steps:
-  1: npm install (or pnpm install, etc)
-  2: git init && git add -A && git commit -m "Initial commit" (optional)
-  3: npm run dev -- --open
+I need to keep everything in one place and be able to quickly search it all:
 
-To close the dev server, hit Ctrl-C
+1. documentation ( articles, blog posts, charts, code snippets, etc )
+2. meeting notes
+3. decisions
+4. project tracking ( something like Jira )
+5. etc, etc, etc
 
-Stuck? Visit us at https://svelte.dev/chat
-```
+NB: the base functionality, I believe, should be the one that allows me to create simple ( html ) documents and search for them.
+Charts, meeting notes, decisions, project tracking -- all these should be implemented via modules.
+
+NB: every single item is a document ( ? ). Every document can be linked to another document.
+
+## references
+
+1. [DOCUMENT.md](docs/DOCUMENT.md)
+2. [MODULES.md](docs/MODULES.md)
