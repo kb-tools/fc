@@ -1,2 +1,12 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<article contenteditable="true"></article>
+
+<style>
+  [contenteditable] {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    height: 100vh;
+    background-color: #eee;
+    border: 1px solid #ccc;
+  }
+</style>
