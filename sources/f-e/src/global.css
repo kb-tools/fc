@@ -1,6 +1,7 @@
 :root {
-  --main-gap: 1rem;
-  --main-background-color: hsl(0, 0%, 97%);
+  --main-gap: min(0.5vh, 0.5vw);
+  --main-background-color: hsl(219, 100%, 97%);
+  --main-font-size: 1.5rem;
 
   --contenteditable-background-color: hsl(0, 0%, 100%);
   --contenteditable-border: 0 solid hsl(0, 0%, 80%);
@@ -14,6 +15,10 @@
   --filter-drop-shadow: drop-shadow(2px 4px 6px var(--shadow-color));
 }
 
+html {
+  font-family: 'Inter';
+}
+
 body {
   background-color: var(--main-background-color);
   overflow: hidden;
@@ -23,6 +28,9 @@ body {
   flex-direction: column;
   margin: 0;
   padding: 0;
+  align-items: center;
+
+  font-size: var(--main-font-size);
 }
 
 [contenteditable]:focus {
